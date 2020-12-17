@@ -3,7 +3,6 @@ flask==1.1.2
 numpy==1.18.5
 pandas==1.0.5
 gunicorn==20.0.4
-wincertstore==0.2
 absl-py @ file:///tmp/build/80754af9/absl-py_1607439979954/work
 aiohttp @ file:///C:/ci/aiohttp_1607109732912/work
 alabaster==0.7.12
