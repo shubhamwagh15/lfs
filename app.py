@@ -19,12 +19,12 @@ config.gpu_options.per_process_gpu_memory_fraction = 0.2
 config.gpu_options.allow_growth = True
 session = InteractiveSession(config=config)
 # Keras
-from tensorflow.keras.applications.resnet50 import preprocess_input
+
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
 # Flask utils
-from flask import Flask, redirect, url_for, request, render_template
+
 from werkzeug.utils import secure_filename
 
 MODEL_PATH = 'model121.h5'
